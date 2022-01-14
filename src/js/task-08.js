@@ -17,7 +17,8 @@ function onFormSubmit(e) {
 
         return alert(`Все поля должны быть заполнены!`)
     }
-       
     
+    document.querySelector('.login-form').reset ()
+
 }
 
