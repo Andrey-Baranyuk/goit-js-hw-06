@@ -11,4 +11,4 @@ const nameTypeAdd = (e) =>{
     }
 };
 
-nameType.addEventListener('change', nameTypeAdd);
+nameType.addEventListener('input', nameTypeAdd);
